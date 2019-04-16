@@ -27,3 +27,26 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.shadow{
+    box-shadow: 2px 3px 8px 0px rgba(155,155,155,0.75);
+    height: 98%;
+}
+
+.tab-content article img {
+    width: 100%;
+    height: auto;
+}
+h2 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.1px !important;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Start News</title>
 </head>
@@ -15,32 +16,19 @@
 <div class="container">
 <div class="row">
 <div class="col-8">
-<ul class="justify-content-center">
-  <li>
-    <a href="#">Бизнес</a>
-  </li>
-  <li>
-    <a href="#">Здоровье</a>
-  </li>
-  <li>
-    <a href="#">Наука</a>
-  </li>
-  <li>
-    <a href="#">Технология</a>
-  </li>
-  <li>
-      <a href="#">Развлекательная программа</a>
-    </li>
-    <li>
-      <a href="#">Спорт</a>
-        </li>
-</ul>
 
-
-
-
-
-
+<nav>
+  <div class="nav nav-tabs" role="tablist">
+    <a class="nav-item nav-link active" data-category="0" data-toggle="tab" role="tab" aria-selected="true">Спорт</a>
+    <a class="nav-item nav-link" data-category="1" data-toggle="tab" role="tab" aria-selected="false">Развлекательная программа</a>
+    <a class="nav-item nav-link" data-category="2" data-toggle="tab" role="tab" aria-selected="false">Здоровье</a>
+    <a class="nav-item nav-link" data-category="3" data-toggle="tab" role="tab" aria-selected="false">Наука</a>
+    <a class="nav-item nav-link" data-category="4" data-toggle="tab" role="tab" aria-selected="false">Технология</a>
+  </div>
+</nav>
+<div class="tab-content">
+  <div class="tab-pane fade show active" role="tabpanel">Загрузка</div>
+</div>
 
 </div>
 <div class="col-4">
@@ -48,8 +36,9 @@
 </div>
 </div>
 
-
+<script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
+
 
 </div>
 </body>
