@@ -50,3 +50,9 @@ h2 a{
     display: -ms-flexbox;
     display:         flex;
 }
+
+.valuta{
+    color: #17a2b8;
+    font-weight: 700;
+    font-size: 45px;
+}
