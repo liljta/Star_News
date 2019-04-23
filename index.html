@@ -15,10 +15,10 @@
 <h1 class="text-center font-italic"><img src="img/up.svg" height="65" width="65" />  Star News</h1>
 <div class="container">
 <div class="row">
-<div class="col-8">
+<div class="col-7">
 
 <nav>
-  <div class="nav nav-tabs" role="tablist">
+  <div class="nav nav-tabs nav-news" role="tablist">
     <a class="nav-item nav-link active" data-category="0" data-toggle="tab" role="tab" aria-selected="true">Спорт</a>
     <a class="nav-item nav-link" data-category="1" data-toggle="tab" role="tab" aria-selected="false">Развлекательная программа</a>
     <a class="nav-item nav-link" data-category="2" data-toggle="tab" role="tab" aria-selected="false">Здоровье</a>
@@ -31,7 +31,7 @@
 </div>
 
 </div>
-<div class="col-4">
+<div class="col-5">
 <span class="valuta font-italic text-center">В отделениях</span>
         <table class="table table-striped">
           <thead>
@@ -58,13 +58,125 @@
               <tbody class="currency-exchange-card">
               </tbody>
             </table>
-        </div>
-    </div>
+            <h2 class="text-center font-italic">Погода
+                           <label for="city"></label>
+                           <select class="form-control" id="city" onchange="">
+                             <option value="693581">Славута</option>
+                             <option value="695594">Ровно</option>
+                             <option value="703448">Киев</option>
+                             <option value="501175">Ростов-на-Дону</option>
+                             <option value="524901">Москва</option>
+                             </select>
+                             </h2>
+            <nav>
+  <div class="nav nav-tabs nav-weather" role="tablist">
+    <a class="nav-item nav-link nav-weather-0 active" href="#w0" data-day="0" data-toggle="tab" role="tab" aria-selected="true">Четверг</a>
+    <a class="nav-item nav-link nav-weather-1" href="#w1" data-day="1" data-toggle="tab" role="tab" aria-selected="false">Пятница</a>
+    <a class="nav-item nav-link nav-weather-2" href="#w2" data-day="2" data-toggle="tab" role="tab" aria-selected="false">Суббота</a>
+    <a class="nav-item nav-link nav-weather-3" href="#w3" data-day="3" data-toggle="tab" role="tab" aria-selected="false">Воскресенье</a>
+    <a class="nav-item nav-link nav-weather-4" href="#w4" data-day="4" data-toggle="tab" role="tab" aria-selected="false">Понедельник</a>
+  </div>
+</nav>
+<div class="tab-content tab-content-weather text-center">
+  <div class="tab-pane fade show tab-weather-0 active" id="w0" role="tabpanel">
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Время</th>
+        <th scope="col">Температура</th>
+        <th scope="col">Осадки</th>
+        <th scope="col">Давление</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td colspan="3">
+    Загрузка
+</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+  <div class="tab-pane fade show tab-weather-1" id="w1" role="tabpanel">
+   <table class="table table-borderless">
+      <thead>
+        <tr>
+          <th scope="col">Время</th>
+          <th scope="col">Температура</th>
+          <th scope="col">Осадки</th>
+          <th scope="col">Давление</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td colspan="3">
+      Загрузка
+  </td>
+  </tr>
+      </tbody>
+    </table>
+</div>
+  <div class="tab-pane fade show tab-weather-2" id="w2" role="tabpanel"> <table class="table table-borderless">
+                                                                            <thead>
+                                                                              <tr>
+                                                                                <th scope="col">Время</th>
+                                                                                <th scope="col">Температура</th>
+                                                                                <th scope="col">Осадки</th>
+                                                                                <th scope="col">Давление</th>
+                                                                              </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                            <tr>
+                                                                            <td colspan="3">
+                                                                            Загрузка
+                                                                        </td>
+                                                                        </tr>
+                                                                            </tbody>
+                                                                          </table>
+
+</div>
+  <div class="tab-pane fade show tab-weather-3" id="w3" role="tabpanel">
+  <table class="table table-borderless">
+                                                                            <thead>
+                                                                              <tr>
+                                                                                <th scope="col">Время</th>
+                                                                                <th scope="col">Температура</th>
+                                                                                <th scope="col">Осадки</th>
+                                                                                <th scope="col">Давление</th>
+                                                                              </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                            <tr>
+                                                                            <td colspan="3">
+                                                                            Загрузка
+                                                                        </td>
+                                                                        </tr>
+                                                                            </tbody>
+                                                                          </table></div>
+  <div class="tab-pane fade show tab-weather-4" id="w4" role="tabpanel">
+  <table class="table table-borderless">
+                                                                            <thead>
+                                                                              <tr>
+                                                                                <th scope="col">Время</th>
+                                                                                <th scope="col">Температура</th>
+                                                                                <th scope="col">Осадки</th>
+                                                                                <th scope="col">Давление</th>
+                                                                              </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                            <tr>
+                                                                            <td colspan="3">
+                                                                            Загрузка
+                                                                        </td>
+                                                                        </tr>
+                                                                            </tbody>
+                                                                          </table></div>
+
+</div>
+  </div>
     </div>
      </div>
-</div>
-</div>
-</div>
+
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
